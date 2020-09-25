@@ -1,11 +1,15 @@
 import React from "react";
 
 function Plauer() {
-  let audio = new Audio("/audio/Claves.mp3");
+  let audio = new Audio("./audio/Claves.mp3");
 
   const start = () => {
-    setInterval(start, 333);
-    audio.play();
+    let i = 0;
+    setTimeout(function run() {
+      console.log(i++);
+      audio.play();
+      setTimeout(run, 333);
+    }, 333);
   };
 
   return (
