@@ -1,5 +1,5 @@
 # React-Metronome
-This project was created to practice in JavaScript, React, SCSS and more.
+This is a Metronome project written in React so that I can run at a certain pace!
 ## Browse
 You can check this project in web here: [React-Metronome](https://it-krivoshey.github.io/React-Metronome/)
 ## License
