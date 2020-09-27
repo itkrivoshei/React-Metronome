@@ -68,6 +68,10 @@ class Metronome extends Component {
 
     return (
       <div className="metronome">
+        <p>
+          Metronome by{" "}
+          <a href="https://github.com/IT-Krivoshey">IT-Krivoshey</a>
+        </p>
         <div className="bpm-slider">
           <div>{bpm} BPM</div>
           <input
