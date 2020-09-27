@@ -1,10 +1,10 @@
 import React from "react";
-import Player from "./AudioButton";
+import Metronome from "./Metronome";
 
 function App() {
   return (
     <div className="metronomeDivMain">
-      <Player />
+      <Metronome />
     </div>
   );
 }
