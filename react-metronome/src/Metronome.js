@@ -70,7 +70,7 @@ class Metronome extends Component {
       <div className="metronome">
         <p>
           Metronome by{" "}
-          <a href="https://github.com/IT-Krivoshey">IT-Krivoshey</a>
+          <a href="https://github.com/itkrivoshei">IT-Krivoshey</a>
         </p>
         <div className="bpm-slider">
           <div>{bpm} BPM</div>
